@@ -1,0 +1,12 @@
+.pytest_cache/
+__pycache__/
+.idea/
+.vscode/
+.DS_Store
+extras/
+venv/
+*_garmin_connect_export/
+*.pyc
+*.log
+lint*.txt
+*.swp
