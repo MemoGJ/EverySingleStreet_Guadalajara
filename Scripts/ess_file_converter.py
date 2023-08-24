@@ -35,9 +35,9 @@ def process_tcx_file(file_path, activity_id):
     return data
 
 
-folder_path = r'C:\Users\Hector G. Guerrero\Documents\Portfolio\EverySingleStreetGDL\tcxs_ESS'
-output_folder = r'C:\Users\Hector G. Guerrero\Documents\Portfolio\EverySingleStreetGDL\csvs'
-global_folder = r'C:\Users\Hector G. Guerrero\Documents\Portfolio\EverySingleStreetGDL'
+folder_path = r'C:\Users\Hector G. Guerrero\Documents\Portfolio\EverySingleStreetGDL\Data\tcxs_ESS'
+output_folder = r'C:\Users\Hector G. Guerrero\Documents\Portfolio\EverySingleStreetGDL\Data\csvs'
+global_folder = r'C:\Users\Hector G. Guerrero\Documents\Portfolio\EverySingleStreetGDL\Data'
 
 # Check if the output folder exists, create it if not
 if not os.path.exists(output_folder):
